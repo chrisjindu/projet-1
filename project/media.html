@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Media ShowPage</title>
+    <link rel="stylesheet" href="media.css">
+    
+</head>
+<body>
+    <header>
+        <h1>CHRISCOOL'S MEDIA</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>My Pictures</h2>
+            <p>These are my pictures ranging from my days in school/NYSC</p>
+            <picture>
+                <source srcset="image/ji 1.jpg" media="(max-width:205px)">
+                <source srcset="image/ji 2.jpg" media="(max-width:307px)">
+                <source srcset="image/ji 3.jpg" media="(max-width:408px)">
+                <img src="image/ji.jpg" alt="Profile Picture" class="responsive-img">
+            </picture>
+
+            <picture>
+                <source srcset="images/sch 1.jpg" media="(max-width:200px)">
+                <source srcset="image/sch 2.jpg" media="(max-width:350px)">
+                <source srcset="image/sch 3.jpg" media="(max-width:460px)">
+                <img src="image/sch.jpg" alt="Profile Picture" class="responsive-img">
+            </picture>
+
+            <picture>
+                <source srcset="images/chris(1).jpg" media="(max-width:220px)">
+                <source srcset="image/chris 2.jpg" media="(max-width:310px)">
+                <source srcset="image/chris 3.jpg" media="(max-width:410px)">
+                <img src="image/chris.jpg" alt="Profile Picture" class="responsive-img">
+
+            </picture>
+
+        </section>
+
+        <section>
+            <h2>My Video</h2>
+            <p>Here are some videos of me in ShopRite Owerri, with an old friend of mine</p>
+            <video class="video" controls autoplay loop muted poster="image/video.jpg" preload="auto" width="640" height="352" controlsList="nodownload">
+                <source src="video/video1.mp4" type="video/mp4">
+                Your broswer does not support this video tag, Thank you!
+            </video>
+
+            <video class="video" controls autoplay loop muted poster="image/video.jpg" preload="auto" width="640" height="352" controlsList="nodownload">
+                <source src="video/video2.mp4" type="video/mp4">
+                Your broswer does not support this video tag, Thank you!
+            </video>
+        </section>
+
+        <section>
+            <h2>My Favorite Songs</h2>
+            <p>This songs below are the list of top three (3) old school songs my play, i put these songs on repeat while i am coding (practicing), more like my motivational songs.</p>
+            <div>
+                <p>TuFace Idibia - Oyi</p>
+                <audio class="audio" controls autoplay muted loop >
+                    <source src="audio/2Baba-–-Oyi.mp3" type="audio/mpeg">
+                    Your browser does not support this audio file, Thank you!.
+                </audio>
+
+                <p>Teni-X-Phyno - Pray</p>
+                <audio class="audio" controls autoplay muted loop>
+                    <source src="audio/DDE-X-Teni-X-Phyno-–-Pray-.mp3" type="audio/mpeg">
+                    Your browser does not support this audio file, Thank you!.
+                </audio>
+
+                <p>Teni--Power Ranger</p>
+                <audio class="audio" controls autoplay muted loop>
+                    <source src="audio/Teni-–-Power-Rangers.mp3" type="audio/mpeg">
+                    Your browser does not support this audio file, Thank you!.
+                </audio>
+            </div>
+            
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 CHRISCOOL</p>
+    </footer>
+    <h2><a href="#top">Back to the top</a></h2>
+    <h2><a href="form.html">Altschool Application</a></h2>
+    <h2><a href="index.html">My Profile</a></h2>
+    <h2><a href="table.html">Table</a></h2>
+</body>
+</html>
