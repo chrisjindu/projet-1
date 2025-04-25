@@ -1,0 +1,10 @@
+version: '3.8' # Compose file format version
+services:
+  frontend:     # Service name
+    build: .    # Builds from Dockerfile in current dir
+    ports:
+      - "3003:80"       # Maps host:container ports
+    volumes:
+      - .:/app          # Bind mount for live code updates
+    environment:
+      - VITE_MOCK_MODE=true     # Sets env var
