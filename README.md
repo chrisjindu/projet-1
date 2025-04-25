@@ -1,0 +1,1 @@
+This is a project i started in my first semester as a frontend engineer, it's a brief bio of myself with videos and images, now i want to step it up with my current field (DevOps) i want to make all the necessary changes and make it my personal website for references of my work as a software engineer.
